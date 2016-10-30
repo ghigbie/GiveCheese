@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">GiveWhiteManCheese</string>
+    <string name="score">Score </string>
+    <string name="hi_score">High Score</string>
 </resources>

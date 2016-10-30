@@ -1,5 +1,6 @@
 package com.geogehigbie.givewhitemancheese;
 
+import android.animation.Animator;
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
 import android.support.v7.app.AppCompatActivity;
@@ -30,5 +31,27 @@ public class MainActivity extends AppCompatActivity {
         //yAnim.addUpdateListener(this);
         //yAnim.addListener(this);
         yAnim.start();
+        yAnim.addListener(new Animator.AnimatorListener() {
+            @Override
+            public void onAnimationStart(Animator animator) {
+
+            }
+
+            @Override
+            public void onAnimationEnd(Animator animator) {
+
+            }
+
+            @Override
+            public void onAnimationCancel(Animator animator) {
+
+            }
+
+            @Override
+            public void onAnimationRepeat(Animator animator) {
+
+            }
+        });
+
     }
 }
